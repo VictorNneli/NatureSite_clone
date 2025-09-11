@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+}
+.header-wrapper {
+  background-image: url(Images/contact-hero-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 66vh;
+  color: white;
+  
+}
+
+.logo-white{
+  width: 50%;
+}
+.logo-white img {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 30px;  
+}
+.service-wrapper {
+  display: flex;  
+}
+.left-header{
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+justify-content: flex-end;
+padding: 10px 6rem;
+height: 90px;
+}
+.main-nav {  
+  display: flex;
+  gap: 20px; 
+  /* border: 2px solid green; */
+  align-items: center;
+  
+}
+.main-nav a{
+  text-decoration: none;
+  color: white;
+}
+.contact-info{
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+}
+.hero-section {
+font-family: "DM Sans", sans-serif;
+font-size: 35px;
+font-weight: 20px;
+line-height: 200px;
+color: rgb(255, 255, 255);
+margin-left: 500px;
+}
+
+/* Form Section */
+
+.contact-section {
+  padding: 4rem 1.5rem;
+}
+.contact-inner {
+  max-width: 1100px;
+  margin: 0 auto;              
+  display: flex;
+  gap: 1.5rem;                 
+  align-items: flex-start;
+  flex-wrap: wrap;         
+}
+
+/* left column */
+.contact-inform {
+  flex: 1 1 380px;            
+  min-width: 280px;
+}
+
+#findUs {
+  font-family: "Forum", serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: rgb(83, 105, 66);
+  margin-bottom: 1.5rem;
+  text-align: left;            
+}
+
+.info-item {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(82, 104, 64, 0.9);
+  margin: 0.6rem 0;
+}
+
+/* social icons */
+.socials {
+  margin-top: 1rem;
+  display:flex;
+  gap: 0.6rem;
+  align-items:center;
+}
+.social {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgb(83, 105, 66);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  text-decoration: none;
+}
+.social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;         
+}
+
+/* right column - form */
+.contact-form {
+  width: 420px;                
+  min-width: 280px;
+}
+#inTouch {
+  font-family: "Forum", serif;
+  font-size: 40px;
+  color: rgb(83, 105, 66);
+  margin-bottom: 1.2rem;
+  text-align: center;         
+}
+
+/* Form inputs - underline style */
+.formBox {
+  margin-bottom: 1.25rem;
+}
+.formBox label {
+  display:block;
+  font-family: "DM Sans", sans-serif;
+  color: rgba(82,104,64,0.9);
+  font-size: 13px;
+  margin-bottom: 0.35rem;
+}
+.formBox input,
+.formBox textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(0,0,0,0.65);
+  background: transparent;
+  padding: 10px 6px;      
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(83,105,66);
+  outline: none;
+  transition: border-color .18s ease;
+  box-sizing: border-box;
+}
+.formBox input::placeholder,
+.formBox textarea::placeholder {
+  color: rgba(83,105,66,0.45);
+}
+.formBox input:focus,
+.formBox textarea:focus {
+  border-bottom-color: #4CAF50;
+}
+
+/* make textarea look like underline too */
+.formBox textarea {
+  resize: vertical;
+  min-height: 110px;
+  line-height: 1.4;
+  padding-top: 10px;
+}
+
+/* button */
+.btn-primary {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.1rem;
+  background: yellowgreen;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+.btn-primary:hover { opacity: 0.95; }
+/* responsive */
+@media (max-width: 860px) {
+  .contact-inner { flex-direction: column; gap: 2rem; padding: 0 1rem; }
+  .contact-form { width: 100%; }
+}
+/* Team section */
+.teamContainer{
+background-color: #f6f8f5;
+padding-top: 2rem;
+}
+.teamHeader h2{
+text-align: center;
+margin: 3rem 0;
+  font-family: "DM Sans", sans-serif;
+font-size: 35px;
+color: rgba(83, 105, 65, 0.89);
+}
+.teamImgs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 65px;
+}
+.teamImgs img{
+  margin-bottom: 6rem;
+}
+/* Footer Section */
+.footerSection-content {
+  margin-top: 40px;
+ padding: 0 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(82, 104, 64);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+text-decoration: none;
+text-align: center;
+}
+#navii {
+display: flex;
+gap: 10px;
+text-decoration: none;
+list-style: none;
+ margin: 0 70px;
+}
+
+.logo-footer img{
+  width: 60px;}

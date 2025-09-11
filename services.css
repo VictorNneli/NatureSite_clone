@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* height: 11000px; */
+}
+.header-wrapper {
+  background-image: url(./Images/ales-krivec-N-aTikX-b00-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 66vh;
+  color: white;
+  
+}
+
+.logo-white{
+  width: 50%;
+}
+.logo-white img {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 30px;  
+}
+.service-wrapper {
+  display: flex;  
+}
+.left-header{
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+justify-content: flex-end;
+padding: 10px 6rem;
+height: 90px;
+}
+.main-nav {  
+  display: flex;
+  gap: 20px; 
+  /* border: 2px solid green; */
+  align-items: center;
+  
+}
+.main-nav a{
+  text-decoration: none;
+  color: white;
+}
+.contact-info{
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+}
+
+.hero-section {
+font-family: "DM Sans", sans-serif;
+font-size: 35px;
+font-weight: 20px;
+line-height: 200px;
+color: rgb(255, 255, 255);
+margin-left: 500px;
+}
+ 
+.sectionContainer{
+  display: flex;
+  margin-top: 6rem;
+  padding-left: 12rem;
+  justify-content: space-between;
+  padding-right: 14rem;
+}
+.textContainer{
+  margin-top: 4rem;
+}
+.sectionContainer h2{
+  font-family: Forum, display;
+font-size: 34px;
+font-weight: 400;
+line-height: 40px;
+color: rgb(83, 105, 66);
+}
+.firstP{
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.secondP {
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.sectionContainer h3{
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 31px;
+color: rgb(83, 105, 66);
+margin-bottom: 1rem;
+}
+.textContainer button{
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgb(159, 206, 0); 
+  border: 0;
+  padding: 16px 16px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.sectionContainer2{
+  display: flex;
+  margin-top: 6rem;
+  padding-left: 12rem;
+  justify-content: space-between;
+  padding-right: 14rem;
+}
+.textContainer2{
+  margin-top: 4rem;
+}
+.sectionContainer2 h2{
+  font-family: Forum, display;
+font-size: 34px;
+font-weight: 400;
+line-height: 40px;
+color: rgb(83, 105, 66);
+}
+.firstP2 {
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.secondP2 {
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.sectionContainer2 h3{
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 31px;
+color: rgb(83, 105, 66);
+margin-bottom: 1rem;
+}
+.textContainer2 button{
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgb(159, 206, 0); 
+  border: 0;
+  padding: 16px 16px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.sectionContainer3{
+  display: flex;
+  margin-top: 6rem;
+  padding-left: 12rem;
+  justify-content: space-between;
+  padding-right: 14rem;
+}
+.textContainer3{
+  margin-top: 4rem;
+}
+.sectionContainer3 h2{
+  font-family: Forum, display;
+font-size: 34px;
+font-weight: 400;
+line-height: 40px;
+color: rgb(83, 105, 66);
+}
+.firstP3 {
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.secondP3 {
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(83, 105, 65, 0.89);
+}
+.sectionContainer3 h3{
+  margin-top: 2rem;
+  font-family: "DM Sans", sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 31px;
+color: rgb(83, 105, 66);
+margin-bottom: 1rem;
+}
+.textContainer3 button{
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  color: rgb(159, 206, 0); 
+  border: 0;
+  padding: 16px 16px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+ /* Love Nature section */
+ .Love-sectionContainer{
+  margin-top: 10rem;
+ background-color: #f6f8f5 ; 
+ color: rgb(83, 105, 66);
+ /* margin-bottom: 10rem; */
+ }
+ .de-header{
+  margin-top: rem;
+  font-family: Forum, display;
+font-size: 40px;
+font-weight: 400;
+line-height: 44px;
+color: rgb(83, 105, 66);
+padding-left: 4rem;
+padding-top: 5rem;
+ }
+  .Love-sectionContainer p{
+ font-family: "DM Sans", sans-serif;
+
+color: rgba(83, 105, 65, 0.89);
+
+  }
+  .firstPara, .secondPara {
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-left: 4rem;
+  }
+  #small1 {
+    font-family: "DM Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 0.01px;
+color: rgb(83, 105, 66);
+padding-right: 2rem;
+margin-right: 0.1rem;
+  }
+  #small2 {
+font-family: "DM Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 0.01px;
+color: rgb(83, 105, 66);
+padding-right: 2rem;
+margin-right: 0.1rem;
+  }
+#small3 {
+font-family: "DM Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 0.01px;
+color: rgb(83, 105, 66);
+padding-right: 2rem;
+/* margin-right: 0.1rem; */
+  }
+  #small4 {
+font-family: "DM Sans", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 0.01px;
+color: rgb(83, 105, 66);
+padding-right: 2rem;
+
+  }
+  .firstImg {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;              
+    height: 70px; 
+    /* border: 2px solid red; */
+    margin-left: 2rem;
+    margin-bottom: 1rem; 
+     
+  }
+  .secondImg {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;              
+    height: 70px; 
+     margin-bottom: 1rem;
+  }
+
+/* Flexing the Divs */
+.firstClass{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+ 
+}
+.content1{
+  display: block;
+  /* border: 2px solid green; */
+ align-content: center;
+
+}
+.firstImg i{
+  color: rgb(83, 105, 66);
+  font-size: 40px;
+  padding: 16px 16px; 
+  /* margin-left: 3rem; */
+}
+.secondImg i{
+color: rgb(83, 105, 66);
+ font-size: 40px;
+  padding: 14px 12px;  
+}
+.content2{
+  display: block;
+   align-content: center;
+
+}
+
+.secondClass{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.thirdImg{
+   background-color: white;
+    border-radius: 50%;
+    width: 70px;              
+    height: 70px;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.fourthImg{
+   background-color: white;
+    border-radius: 50%;
+    width: 70px;              
+    height: 70px;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+.content3{
+  display: block;
+   align-content: center;
+
+}
+.content4{
+  display: block;
+   align-content: center;
+
+}
+  .thirdImg i{
+  color: rgb(83, 105, 66);
+  font-size: 40px;
+  padding: 16px 16px;
+  }
+  .fourthImg i{
+   color: rgb(83, 105, 66);
+  font-size: 40px;
+  padding: 16px 16px;  
+  }
+
+  /* footer Section */
+  .footerSection-content {
+  margin-top: 40px;
+ padding: 0 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(82, 104, 64);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+text-decoration: none;
+text-align: center;
+}
+#navii {
+display: flex;
+gap: 10px;
+text-decoration: none;
+list-style: none;
+ margin: 0 70px;
+}
+
+.logo-footer img{
+  width: 60px;}

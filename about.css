@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* color: white; */
+  /* height: 10000px; */
+}
+.header-wrapper {
+  background-image: url(./Images/header-hero-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 66vh;
+  color: white;
+  
+}
+.about-wrapper {
+  display: flex;
+  /* border: 2px solid red;   */
+  
+}
+.logo-white{
+  width: 50%;
+}
+.logo-white img {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 20px;  
+}
+.left-header{
+  width: 50%;
+  /* border: 2px solid blue; */
+  display: flex;
+justify-content: flex-end;
+padding: 10px 6rem;
+}
+
+.main-nav {  
+  display: flex;
+  gap: 20px; 
+  /* border: 2px solid green; */
+  align-items: center;
+  
+}
+.main-nav a{
+  text-decoration: none;
+  color: white;
+}
+.contact-info{
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+}
+.hero {
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 8%;
+  font-size: 30px;
+}
+.support {
+text-align: center;
+margin-top: 80px; 
+font-family: Forum, display;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+color: rgb(83, 105, 66); 
+}
+.contact-hero{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+#contact-image{
+  width: 65rem;
+}
+
+.header2-wrapper{
+  display: flex;
+  text-align: center;
+  margin-left: 10rem;
+  padding: 20px 2px;
+}
+.first-header{
+  font-family: "DM Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+color: rgba(83, 105, 65, 0.89);
+}
+.second-header{
+  font-family: "DM Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+color: rgba(83, 105, 65, 0.89);
+}
+
+.header3-wrapper{
+  background-color: #f6f8f5;
+text-align: center;
+  max-width: 100%;  
+  margin: 0 auto;    
+  padding: 2rem 1rem;
+}
+.header3-wrapper img {
+  display: block;
+  margin: 0 auto; 
+  width: 50px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.love-nature{
+  font-family: Forum, display;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  color: rgb(83, 105, 66);
+}
+.name{
+  font-family: "DM Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1px;
+color: rgba(83, 105, 65, 0.89);
+}
+
+.fifthSection-content {
+  margin-top: 40px;
+ padding: 0 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(82, 104, 64);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+text-decoration: none;
+text-align: center;
+}
+#navii {
+display: flex;
+gap: 10px;
+text-decoration: none;
+list-style: none;
+ margin: 0 70px;
+}
+
+.logo-footer img{
+  width: 60px;
+}
